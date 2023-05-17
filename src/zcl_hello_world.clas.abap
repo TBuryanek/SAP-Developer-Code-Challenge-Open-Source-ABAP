@@ -5,7 +5,9 @@ class ZCL_HELLO_WORLD definition
 
 public section.
 
-  class-methods SAY_HELLO .
+  class-methods SAY_SOMETHING
+    importing
+      !IV_WORDS type STRING default 'Hello World' .
 protected section.
 private section.
 ENDCLASS.
@@ -15,10 +17,10 @@ ENDCLASS.
 CLASS ZCL_HELLO_WORLD IMPLEMENTATION.
 
 
-  METHOD say_hello.
+  METHOD say_something.
 
-    "Say Hello World
-    MESSAGE 'Hello World'(t01) TYPE 'I'.
+    "Say something
+    MESSAGE iv_words TYPE 'I'.
 
   ENDMETHOD.
 ENDCLASS.
