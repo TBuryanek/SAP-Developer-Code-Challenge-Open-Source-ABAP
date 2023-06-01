@@ -18,4 +18,8 @@ Simple Hello World class pushed to GitHub: [ZCL_HELLO_WORLD.CLAS.ABAP](https://g
 ![Screenshot of Week 3 Console output](abap_week3_challenge_result.png)
 
 ## Week 4
-TODO: Upcoming :)
+Complete demo game made with [Axage (ABAP teXt Adventure Game Engine)](https://github.com/Ennowulff/axage).
+
+Game engine used together with [ABAP2UI5](https://github.com/oblomov-dev/abap2UI5) => [example repo here](https://github.com/jung-thomas/axage_example).
+
+![Screenshot of Week 4 result](abap_week4_challenge_result.png)
